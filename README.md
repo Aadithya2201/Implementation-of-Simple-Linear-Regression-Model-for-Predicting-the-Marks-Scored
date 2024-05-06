@@ -97,6 +97,7 @@ print("RMSE = ",rmse)
 ```
 
 
+
 ```
 ### Test set graph
 ![Screenshot (1235)](https://github.com/VARSHINI22009118/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119401150/3fc3a7b4-9592-44cb-bd08-0db9b71100c7)
