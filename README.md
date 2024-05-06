@@ -30,8 +30,6 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: AADITHYA R
 RegisterNumber:  212223240001
 */
-```
-```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,6 +43,8 @@ Y=df.iloc[:,1].values
 Y
 from sklearn.model_selection import train_test_split
 X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=1/3,random_state=0)
+```
+```
 from sklearn.linear_model import LinearRegression
 regressor=LinearRegression()
 regressor.fit(X_train,Y_train)
@@ -72,8 +72,6 @@ print("RMSE = ",rmse)
 ```
 
 ## Output:
-
-
 ### df.head()
 ![image](https://github.com/VARSHINI22009118/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119401150/b167b189-955e-4a58-98ed-81521b6a2307)
 
