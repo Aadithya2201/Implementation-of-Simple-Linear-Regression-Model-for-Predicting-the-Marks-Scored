@@ -27,8 +27,8 @@ STEP 7.End the program.
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: VARSHINI S A
-RegisterNumber:  212222100059
+Developed by: AADITHYA R
+RegisterNumber:  212223240001
 */
 ```
 ```
