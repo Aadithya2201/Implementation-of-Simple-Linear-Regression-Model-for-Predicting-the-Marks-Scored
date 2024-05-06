@@ -78,18 +78,16 @@ print("RMSE = ",rmse)
 ### df.tail()
 ![image](https://github.com/VARSHINI22009118/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119401150/6e5d3991-a656-40dd-b590-f0cde57a9df7)
 
-
-
 ### Array value of X
 ![image](https://github.com/VARSHINI22009118/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119401150/cbdade85-e2f8-4033-99ca-c150a2540f4d)
+```
 
+```
 ### Array value of Y
 ![image](https://github.com/VARSHINI22009118/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119401150/bd500e67-4f89-4d8e-ac02-7a30adb63ea3)
 
 ### Values of y prediction
 ![image](https://github.com/VARSHINI22009118/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119401150/0fb49543-18a3-462b-83e8-48da46913b68)
-
-
 
 ### Array values of Y test
 ![image](https://github.com/VARSHINI22009118/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119401150/b84929fa-8bad-4fdd-8c4c-9c4b27499f28)
