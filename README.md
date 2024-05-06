@@ -94,7 +94,9 @@ print("RMSE = ",rmse)
 
 ### Training set graph
 ![Screenshot (1234)](https://github.com/VARSHINI22009118/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119401150/67edac83-7c77-495f-8a34-0f5d5a7659df)
+```
 
+```
 ### Test set graph
 ![Screenshot (1235)](https://github.com/VARSHINI22009118/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119401150/3fc3a7b4-9592-44cb-bd08-0db9b71100c7)
 
