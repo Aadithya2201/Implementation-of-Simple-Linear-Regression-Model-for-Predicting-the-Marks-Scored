@@ -37,10 +37,10 @@ from sklearn.metrics import mean_absolute_error,mean_squared_error
 df=pd.read_csv("C:/Users/SEC/Downloads/student_scores.csv")
 df.head()
 df.tail()
+```
+```
 X=df.iloc[:,:-1].values
 X
-```
-```
 Y=df.iloc[:,1].values
 Y
 from sklearn.model_selection import train_test_split
