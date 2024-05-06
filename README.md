@@ -7,20 +7,20 @@ To write a program to predict the marks scored by a student using the simple lin
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
-1. Import the standard Libraries.
-2. Set variables for assigning dataset values.
-3. Import linear regression from sklearn.
-4. Assign the points for representing in the graph.
-5. Predict the regression for marks by using the representation of the graph.
-
+## Algorithm:
+step1:start
+<br>step-2:Import the standard Libraries. 
+<br>step-3:Set variables for assigning dataset values. 
+<br>step-4:Import linear regression from sklearn. 
+<br>step-5:Assign the points for representing in the graph. 
+<br>step-6:Predict the regression for marks by using the representation of the graph. 
+<br>step-7:stop
 ## Program:
 ```
-/*
-Program to implement the simple linear regression model for predicting the marks scored.
-Developed by:Aadithya.R 
-RegisterNumber:  212223240001
-*/
+Program to implement the simple linear regression model
+for predicting the marks scored.
+Developed by: VIKAASH K S
+RegisterNumber: 212223240179
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -33,6 +33,8 @@ X
 Y=df.iloc[:,1].values
 Y
 from sklearn.model_selection import train_test_split
+```
+```
 X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=1/3,random_state=0)
 from sklearn.linear_model import LinearRegression
 regressor=LinearRegression()
@@ -57,36 +59,35 @@ print('MSE = ',mse)
 mae=mean_absolute_error(Y_test,Y_pred)
 print('MAE = ',mae)
 rmse=np.sqrt(mse)
-print("RMSE = ",rmse) 
+print("RMSE = ",rmse)  
 ```
-
 ## Output:
 ### df.head()
-![1st](https://github.com/Aadithya2201/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145917810/77163267-9ac2-467b-803d-cbbb5d8682ae)
+![df_head()](https://github.com/rohithprem18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/146315115/0b7d642e-7301-4319-aafd-a9a4f648b04b)
 
 ### df.tail()
-![2](https://github.com/Aadithya2201/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145917810/96c0a72b-a114-45ba-a43a-59e33a4b718e)
+![df tail()](https://github.com/rohithprem18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/146315115/68fdaf4f-3368-4779-ac98-6541956060f6)
 
 ### Array value of X
-![3](https://github.com/Aadithya2201/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145917810/bf70d1b6-dddb-492a-b1ae-5788a4050c7d)
+![array value](https://github.com/rohithprem18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/146315115/5a783fe9-924d-48b4-8d15-b636ba4135d1)
 
 ### Array value of Y
-![4](https://github.com/Aadithya2201/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145917810/b725c8f6-a33d-4cd3-97c9-2f34b96115da)
+![array value of y](https://github.com/rohithprem18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/146315115/998a4174-131b-498b-a882-fcd39a015aa3)
 
 ### Values of y prediction
-![5](https://github.com/Aadithya2201/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145917810/2588d8af-ccd8-464c-adaf-eb18b67ba69f)
-
+![value of y prediction](https://github.com/rohithprem18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/146315115/d22c7fe9-036e-45c0-86cc-b07a64b06996)
 ### Array values of Y test
-![6](https://github.com/Aadithya2201/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145917810/41e9e8e8-170c-489a-995a-1c79e3556202)
+![array values of y test](https://github.com/rohithprem18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/146315115/fbe00f6c-0a90-459f-8982-4e5b7e979fdb)
 
 ### Training set graph
-![7](https://github.com/Aadithya2201/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145917810/53762525-6ea8-4f33-9d0e-522fc467790e)
+![training set graph](https://github.com/rohithprem18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/146315115/688388ba-4567-424c-b641-c7296f4697f2)
 
 ### Test set graph
-![8](https://github.com/Aadithya2201/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145917810/95c68297-0377-45ec-a21e-84f801ba48d2)
+![test set graph 1](https://github.com/rohithprem18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/146315115/548f2c41-76fa-4032-902d-4bf7b0093366)
 
 ### Values of MSE,MAE and RMSE
-![9](https://github.com/Aadithya2201/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145917810/da31d005-1efa-4c44-b33b-6908d4be9350)
+![values of mse,mae and rmse](https://github.com/rohithprem18/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/146315115/5de3982e-704d-4750-9802-e398748bf131)
+
 
 
 ## Result:
